@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Register/Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <div class = "main-wrapper">
+      <div class = "form-row">
+        <!-- col left -->
+        <div class = "form-col-left">
+          <h2>Register Now!</h2>
+          <form class = "register-form">
+            <div class = "form-item-list">
+              <!-- item -->
+              <div class = "form-item">
+                <label for = "firstname">first name</label>
+                <div class = "form-group">
+                  <span><i class = "fas fa-user"></i></span>
+                  <input type = "text" class = "form-control" id = "firstname" placeholder="first name">
+                </div>
+              </div>
+              <!-- end of item -->
+              <!-- item -->
+              <div class = "form-item">
+                <label for = "lastname">last name</label>
+                <div class = "form-group">
+                  <span><i class = "fas fa-user"></i></span>
+                  <input type = "text" class = "form-control" id = "lastname" placeholder="last name">
+                </div>
+              </div>
+              <!-- end of item -->
+              <!-- item -->
+              <div class = "form-item">
+                <label for = "email">email adddress</label>
+                <div class = "form-group">
+                  <span><i class = "fas fa-envelope"></i></span>
+                  <input type = "text" class = "form-control" id = "email" placeholder="email">
+                </div>
+              </div>
+              <!-- end of item -->
+              <!-- item -->
+              <div class = "form-item">
+                <label for = "phonenumber">phone number</label>
+                <div class = "form-group">
+                  <span><i class = "fas fa-phone-alt"></i></span>
+                  <input type = "text" class = "form-control" id = "phonenumber" placeholder="XXX-XXX-XXXX">
+                </div>
+              </div>
+              <!-- end of item -->
+              <!-- item -->
+              <div class = "form-item">
+                <label for = "password">password</label>
+                <div class = "form-group">
+                  <span><i class = "fas fa-lock"></i></span>
+                  <input type = "password" class = "form-control" id = "password" placeholder="password">
+                </div>
+              </div>
+              <!-- end of item -->
+              <!-- item -->
+              <div class = "form-item">
+                <label for = "confirm-password">confirm password</label>
+                <div class = "form-group">
+                  <span><i class = "fas fa-lock"></i></span>
+                  <input type = "password" class = "form-control" id = "confirm-password" placeholder="confirm password">
+                </div>
+              </div>
+              <!-- end of item -->
+            </div>
+
+            <span class = "submission-status">
+              <!-- text here -->
+            </span>
+
+            <button type = "submit" id = "submit-btn">
+              register now
+              <i class = "fas fa-long-arrow-alt-right"></i>
+            </button>
+          </form>
+        </div>
+        <!-- end of col left -->
+        <!-- col right -->
+        <div class = "form-col-right">
+          <h2>Already Registered?</h2>
+          <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptate adipisci deserunt laboriosam illum. Tempore quidem cum dolore, delectus nobis temporibus fugiat voluptatibus natus reiciendis.</p>
+          <button type = "button" id = "login-btn">
+            Login
+            <i class = "fas fa-long-arrow-alt-right"></i>
+          </button>
+        </div>
+        <!-- end of col right -->
+      </div>
+    </div>
+
+
+    
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>
